@@ -10,13 +10,14 @@
   top: 80px;
   right: 0;
   z-index: 5;
+  overflow-y: scroll;
+  overflow-x: hidden;
 
   .cart-items {
     height: 240px;
     display: flex;
     flex-direction: column;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    // overflow: scroll;
   }
 
   button {
